@@ -2,9 +2,9 @@ class Question
   attru_accessor :prompt, :answer
   def initialize(prompt, answer)
     @prompt = prompt
-    @answer = answer 
+    @answer = answer
 end
 
-p1 = "How "
-p2 =
-p3 =
+p1 = "How cute is Greggory?\n a)Hes ok\n b)Eh\n c)Cutest boy in the wolrd"
+p2 = "What color is Greggory?\n a)Orange duh\n b)Black cat, spooky!\n c)I dont remember off the top of my head"
+p3 = "Who is Greggory?\n a)Celeberty!\n b)Your bf\n c)An unforgettable creature"
