@@ -1,2 +1,6 @@
 class Question(promt, answer)
-end 
+end
+
+p1 = "How "
+p2 =
+p3 =
