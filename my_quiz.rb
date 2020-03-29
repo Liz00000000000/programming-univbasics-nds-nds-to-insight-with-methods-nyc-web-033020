@@ -12,5 +12,5 @@ p3 = "Who is Greggory?\n a)Celeberty!\n b)An unforgettable creature\n c)Your bf"
 questions = [
   Question.new(p1, "c")
   Question.new(p2, "a")
-  Question.new(p3, "c")
+  Question.new(p3, "b")
 ]
