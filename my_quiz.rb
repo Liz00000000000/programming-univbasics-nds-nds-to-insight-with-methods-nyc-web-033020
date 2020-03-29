@@ -16,5 +16,8 @@ questions = [
 ]
 
 def run_test(questions)
-  
+  answer = ""
+  for question in questions
+    puts question.prompt 
+  end
 end
