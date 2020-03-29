@@ -10,8 +10,8 @@ p2 = "What color is Greggory?\n a)Orange duh\n b)Black cat, spooky!\n c)I dont r
 p3 = "Who is Greggory?\n a)Celeberty!\n b)An unforgettable creature\n c)Your bf"
 
 questions = [
-  Question.new(p1, "c")
-  Question.new(p2, "a")
+  Question.new(p1, "c"),
+  Question.new(p2, "a"),
   Question.new(p3, "b")
 ]
 
