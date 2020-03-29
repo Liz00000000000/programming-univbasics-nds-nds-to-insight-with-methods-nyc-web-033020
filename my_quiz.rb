@@ -25,8 +25,8 @@ def run_test(questions)
     if answer == question.answer
       score += 1
     end
-      puts ("You got "+ score + "/" + questions.size())
   end
+  puts "You scored #{score}/#{questions.size}"
 end
 
 run_test(questions)
