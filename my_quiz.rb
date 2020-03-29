@@ -22,7 +22,8 @@ def run_test(questions)
     puts question.prompt
     answer = gets.chomp()
     if answer == question.answer
-      score += 1 
+      score += 1
     end
   end
+  puts 
 end
