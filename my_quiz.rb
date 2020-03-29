@@ -28,4 +28,4 @@ def run_test(questions)
   puts "You got "+ score + "/" + questions.size
 end
 
-run_test(questions)
+run_test
