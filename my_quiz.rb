@@ -27,3 +27,4 @@ def run_test(questions)
   end
   puts ("You got "+ score + "/" + questions.size())
 end
+end 
