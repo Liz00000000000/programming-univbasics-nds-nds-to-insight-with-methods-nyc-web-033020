@@ -25,5 +25,5 @@ def run_test(questions)
       score += 1
     end
   end
-  puts 
+  puts "You got "+ score + "/" + questions.size 
 end
