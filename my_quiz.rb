@@ -3,6 +3,7 @@ class Question
   def initialize(prompt, answer)
     @prompt = prompt
     @answer = answer
+  end
 end
 
 p1 = "How cute is Greggory?\n a)Hes ok\n b)Eh\n c)Cutest boy in the wolrd"
@@ -27,4 +28,4 @@ def run_test(questions)
   end
   puts ("You got "+ score + "/" + questions.size())
 end
-end 
+end
