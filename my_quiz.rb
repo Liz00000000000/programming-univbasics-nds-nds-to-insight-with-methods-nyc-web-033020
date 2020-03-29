@@ -1,5 +1,5 @@
 class Question
-  attru_accessor :prompt, :answer
+  attr_accessor :prompt, :answer
   def initialize(prompt, answer)
     @prompt = prompt
     @answer = answer
